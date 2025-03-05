@@ -10,14 +10,14 @@ const App = () => {
   const [price, setPrice] = useState(null);
 
   useEffect(() => {
-    fetch("https://regressionproject-backend.vercel.app//get_location_names")
+    fetch("http://127.0.0.1:5000/get_location_names")
       .then((res) => res.json())
       .then((data) => setLocations(data))
       .catch((err) => console.error("Error fetching locations:", err));
   }, []);
 
   const handleEstimate = () => {
-    fetch("https://regressionproject-backend.vercel.app/predict_price", {
+    fetch("http://127.0.0.1:5000/predict_price", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ location, sqft, bhk, bath }),
