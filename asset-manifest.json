@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Regressionproject/static/css/main.ac224f36.css",
-    "main.js": "/Regressionproject/static/js/main.b0a8766d.js",
+    "main.js": "/Regressionproject/static/js/main.213a13ec.js",
     "static/js/453.cea88b60.chunk.js": "/Regressionproject/static/js/453.cea88b60.chunk.js",
     "index.html": "/Regressionproject/index.html",
     "main.ac224f36.css.map": "/Regressionproject/static/css/main.ac224f36.css.map",
-    "main.b0a8766d.js.map": "/Regressionproject/static/js/main.b0a8766d.js.map",
+    "main.213a13ec.js.map": "/Regressionproject/static/js/main.213a13ec.js.map",
     "453.cea88b60.chunk.js.map": "/Regressionproject/static/js/453.cea88b60.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac224f36.css",
-    "static/js/main.b0a8766d.js"
+    "static/js/main.213a13ec.js"
   ]
 }
