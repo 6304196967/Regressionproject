@@ -40,15 +40,15 @@ const App = () => {
         </select>
       </div>
       <div className="form-group">
-        <label>Square Feet:</label>
+        <label>AREA(Square Feet):</label>
         <input type="number" value={sqft} onChange={(e) => setSqft(e.target.value)} />
       </div>
       <div className="form-group">
-        <label>BHK:</label>
+        <label>No.of Bedrooms:</label>
         <input type="number" value={bhk} onChange={(e) => setBhk(e.target.value)} />
       </div>
       <div className="form-group">
-        <label>Bathrooms:</label>
+        <label>No.of Bathrooms:</label>
         <input type="number" value={bath} onChange={(e) => setBath(e.target.value)} />
       </div>
       <button onClick={handleEstimate}>Estimate Price</button>
