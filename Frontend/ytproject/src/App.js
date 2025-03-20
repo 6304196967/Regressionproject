@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>House Price Predictor</h1>
+      <h1>Bengaluru House Price Predictor</h1>
       <div className="form-group">
         <label>Select Location:</label>
         <select value={location} onChange={(e) => setLocation(e.target.value)}>
